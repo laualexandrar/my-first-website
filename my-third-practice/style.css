@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size:62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+.logo img{
+    width: 10rem;
+}
+.nav-bar{
+    border: 0.3rem solid black;
+    display: flex;
+    align-items: center;
+}
+.nav-bar-items{
+    background-color: aqua;
+    width: ss10rem;
+    height: 10rem;
+}
+.nav-bar-items li{
+    display: inline-block;
+}
