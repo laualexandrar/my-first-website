@@ -14,14 +14,20 @@ body {
     width: 100%;
     list-style: none;
     clear: both;
+    position: relative;
 }
 .nav-bar{
     overflow: hidden;
     background-color: #0091AD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .logo{
     display: inline;
-    width: 10%; 
+    width: 100px; 
+    height: auto;
+
 }
 .nav-bar ul {
         list-style: none;
@@ -54,6 +60,7 @@ body {
  .main-content{
     display: flex;
     align-content: center;
+    position:absolute;
 
  }
  .sidebar{
@@ -77,6 +84,7 @@ body {
     display: flex;
      flex-direction: column;
     background-color: papayawhip;
+   
     padding: 8px;    
     min-height: 100%;
  }
